@@ -1,0 +1,55 @@
+body{
+  background-color: black;
+}
+
+#kk{
+  padding-top: 20px;
+}
+
+
+
+
+/* Responsive Navigation Bar */
+@media screen and (max-width: 768px) {
+  .navbar a {
+    float: none;
+    display: flex;
+    text-align: left;
+  }
+}
+p{
+  color: white;
+}
+
+
+.kk{
+  background-color: black;
+  margin-top: 5rem;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: black !important;
+}
+.card-text {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: larger;
+}
+.col:hover{
+  transform: scale(1.05); 
+}
+.pp{
+  display: flex;
+  height: 100vh;
+  justify-content:center;
+  align-items:center;
+  font-family: 'Edu SA Beginner', cursive;
+}
+.p2{
+  display: flex;
+  justify-content: right;
+  font-size: 1rem;
+}
+
+
